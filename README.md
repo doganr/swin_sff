@@ -23,12 +23,23 @@ This repository contains the official source code of the Swin-SFF model proposed
 
 ---
 
+## 🧠 Graphical Abstract
+
+<p align="center">
+  <img src="assets/graphical_abstract.png" alt="Swin-SFF pipeline illustration" width="100%"/>
+</p>
+
+**Swin-SFF** is a novel swin transformer based framework for 3D shape estimation from focus image stacks. It leverages the hierarchical architecture of the Swin Transformer and integrates various focus measure strategies to enable accurate and robust focus level detection. The model performs sharpness evaluation directly in the deep feature space using multi-scale attention mechanisms, which enhance discriminative power in both low-texture and noisy regions. Extensive comparisons with classical and deep SFF techniques show that Swin-SFF consistently outperforms existing approaches in both quantitative and visual evaluations.
+
+
+---
+
 ## 📁 Project Structure
 
 ```
 SwinSFF/
 ├── coco/
-│   └── train2017/            # Grayscale COCO images (download manually)
+│   └── train2017/            # COCO dataset images (download manually)
 ├── models/                   # Trained models and loss logs
 │   └── best.model            # Example trained model file
 ├── outputs/
