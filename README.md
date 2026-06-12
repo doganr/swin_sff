@@ -19,7 +19,7 @@ This repository contains the official source code of the Swin-SFF model proposed
 📦 **Volume:** 193, October 2025  
 🆔 **Article Number:** 109108<br>
 🔗 [**DOI:** 10.1016/j.optlaseng.2025.109108](https://doi.org/10.1016/j.optlaseng.2025.109108)<br>
-🔗 [**Full Text Link**](https://authors.elsevier.com/a/1lB3bWipgs9cr)
+🔗 [**Full Text Link**](https://www.sciencedirect.com/science/article/pii/S0143816625002933)
 
 ---
 
